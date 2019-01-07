@@ -1,0 +1,70 @@
+$gray: #767676;
+$bgcolor: #1f3a5b;
+$fgcolor: #d5df37;
+
+
+.work-listing {
+	list-style-type: none;
+	column-gap: 15px;
+	column-width: calc((650px / 4) - 30px);
+	margin: 0;
+	
+	li {
+		column-break-inside: avoid;
+
+		a {
+			border: 1px solid lighten($gray, 40);
+			padding: 0.66em;
+			border-radius: 0.25em;
+			display: flex;
+			flex-direction: column;
+			margin: 1em 0;
+			background-color: lighten($gray, 60);
+			
+			&:hover, &:focus {
+				border-color: lighten($gray, 20);
+				background-color: lighten($gray, 50);
+			}
+			
+			&:first-child {
+				margin: 0 0 1em;
+			}
+			
+		}
+	}
+}
+
+.site-header {
+	background: $bgcolor;
+	border-top-color: lighten($fgcolor, 20);
+
+	.page-link {
+		color: $fgcolor;
+		
+		&:hover, &:focus {
+			color: lighten($fgcolor, 20);
+		}
+		
+		&:active {
+			color: lighten($fgcolor, 5);		
+		}
+	}
+
+}
+
+.site-title {
+	color: $fgcolor;
+
+	&, &:visited {
+		color: $fgcolor;
+	}
+	
+	&:hover, &:focus {
+		color: lighten($fgcolor, 20);
+	}
+}
+
+.page-content {
+	width: 800px;
+	margin: 0 auto;
+}

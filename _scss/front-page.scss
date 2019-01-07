@@ -64,7 +64,41 @@ $fgcolor: #d5df37;
 	}
 }
 
+.post-title  {
+	font-size: 1.8em;
+	color: $gray;
+}
+
 .page-content {
 	width: 800px;
 	margin: 0 auto;
+	
+	.post-content  {
+		img {
+			max-height: 60vh;
+			display: block;
+			margin: 0 auto;
+		}
+
+		p {
+			margin-top: 1em;
+		}
+	}
+	
+
+}
+
+.sr-only {
+	position:absolute;
+	left:-10000px;
+	top:auto;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+.PageNavigation {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1em;
 }

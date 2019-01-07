@@ -15,6 +15,22 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  <div class="PageNavigation">
+    {% if page.previous.url %}
+      <a id="prev" href="{{page.previous.url}}">
+      	<span class="sr-only">{{page.previous.title}}</span>
+      	⬅️️ Previous 
+      </a>
+    {% endif %}
+    {% if page.next.url %}
+      <a id="next" href="{{page.next.url}}">
+		<span class="sr-only">{{page.next.title}}</span>
+		Next ➡️
+      </a>
+    {% endif %}
+  </div>
+
+
   <div class="post-content e-content" itemprop="articleBody">
 
     {% assign featuredimage = page.id | split: "/" | last %}
@@ -22,15 +38,6 @@ layout: default
     <img src="/assets/images/resized/{{featuredimage}}.png" alt="{{page.title}}">
 
     {{ content }}
-  </div>
-
-  <div class="PageNavigation">
-    {% if page.previous.url %}
-      <a id="prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
-    {% endif %}
-    {% if page.next.url %}
-      <a id="next" href="{{page.next.url}}">{{page.next.title}}</a>
-    {% endif %}
   </div>
 
   {%- if site.disqus.shortname -%}

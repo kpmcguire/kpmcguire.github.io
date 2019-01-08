@@ -1,7 +1,10 @@
 ---
 layout: work
-title:  "The Astronomer – Poster"
+title:  "Cornell Police Site"
+weight: 80
 ---
 
-I designed and build this site. [Cornell Police](https://www.cupolice.cornell.edu)
+I designed and built this site. 
+
+[Cornell Police](https://www.cupolice.cornell.edu)
 

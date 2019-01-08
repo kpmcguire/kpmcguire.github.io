@@ -3,5 +3,4 @@ layout: work
 title:  "Lakeside Bank Website"
 ---
 
-This is the spiral
-
+Notice in the screenshot that the SIFR text is not rendered. It was Hoefler & Frere-Jone's Knockout.

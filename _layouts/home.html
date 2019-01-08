@@ -32,7 +32,10 @@ layout: default
   {%- endif -%}
 
   <ul class="work-listing">
-  {% for w in site.work %}
+  
+	{%- assign works = site.work | sort: "weight" | reverse -%}
+  
+  	{% for w in works %}
 
     {% assign featuredimagethumb = w.id | split: "/" | last %}
 

@@ -1,7 +1,6 @@
 ---
 layout: work
-title:  "Comedy Show Poster - Hannibal Burress"
+title:  "Comedy Show Poster - Hannibal Buress"
 ---
 
-This is the spiral
-
+I met Mr. Buress, just briefly, he was nice.

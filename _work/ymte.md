@@ -3,5 +3,5 @@ layout: work
 title:  "You Me Them Everybody Website"
 ---
 
-This is the spiral
+My very first responsive website design.
 

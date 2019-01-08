@@ -1,6 +1,7 @@
 ---
 layout: work
 title:  "Atkinson Fellows Browser"
+weight: 100
 ---
 
 I helped develop this person browser using a Javascript library called [JPList](https://www.jplist.org/).

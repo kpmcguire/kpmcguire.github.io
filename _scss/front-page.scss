@@ -1,4 +1,4 @@
-$gray: #767676;
+$gray: #6e6e6e;
 $bgcolor: #1f3a5b;
 $fgcolor: #d5df37;
 
@@ -14,22 +14,26 @@ $fgcolor: #d5df37;
 
 		a {
 			border: 1px solid lighten($gray, 40);
-			padding: 0.66em;
+			padding: 0.5em;
 			border-radius: 0.25em;
 			display: flex;
 			flex-direction: column;
 			margin: 1em 0;
-			background-color: lighten($gray, 60);
+			background-color: lighten($gray, 55);
 			
 			&:hover, &:focus {
 				border-color: lighten($gray, 20);
-				background-color: lighten($gray, 50);
+				background-color: white;
 			}
 			
 			&:first-child {
 				margin: 0 0 1em;
 			}
 			
+		}
+		
+		img {
+			object-fit: cover;
 		}
 	}
 }
@@ -69,19 +73,42 @@ $fgcolor: #d5df37;
 	color: $gray;
 }
 
+body {
+	background: lighten($gray, 50);
+}
+
 .page-content {
 	width: 800px;
 	margin: 0 auto;
+	
+	@media screen and (max-width: 800px) {
+		width: calc(100% - 2em);
+	}
 	
 	.post-content  {
 		img {
 			max-height: 60vh;
 			display: block;
 			margin: 0 auto;
+
+			@media screen and (max-width: 800px) {
+				max-height: auto;
+
+			}			
 		}
 
 		p {
 			margin-top: 1em;
+
+		}
+
+		ul {
+			margin-left: 1em;
+			list-style: inside disc;
+		}
+		
+		p, li {
+			color: $gray
 		}
 	}
 	
@@ -101,4 +128,16 @@ $fgcolor: #d5df37;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 1em;
+}
+
+footer {
+	background: white;
+}
+
+.page-content .post .pic {
+	max-width: 300px;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	display: block;
 }

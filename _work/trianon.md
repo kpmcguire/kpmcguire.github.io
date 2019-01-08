@@ -3,5 +3,4 @@ layout: work
 title:  "Trianon Condos Website"
 ---
 
-This is the spiral
-
+Dreamweaver + Flash site, circa 2008.

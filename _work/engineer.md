@@ -3,5 +3,4 @@ layout: work
 title:  "GiveGab Engineer Badge"
 ---
 
-This is the spiral
-
+**/extremely nerd voice** slide rulers!

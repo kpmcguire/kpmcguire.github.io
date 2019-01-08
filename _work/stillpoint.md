@@ -3,5 +3,4 @@ layout: work
 title:  "Stillpoint Development Website"
 ---
 
-This is the spiral
-
+I built this site using Dreamweaver and Flash (around 2007).

@@ -1,0 +1,300 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gg-wrapper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+.gg-wrapper  {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+.gg-svg img{
+    width: 100%;
+    height: auto;
+}
+.gg-wrapper img {
+    height: auto !important;
+}
+
+.gg-section-container :after, .gg-section-container > div:after{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    clear: both;
+}
+
+.gg-wrapper h2 {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 4.2em;
+    color: #2d3c49;
+    margin-bottom: .5em;
+}
+
+.gg-wrapper h2 {
+    font-size: 3.6em;
+    font-weight: 300;
+}
+
+.gg-wrapper p {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 2em;
+    color: #68879a;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.gg-section-container {
+    width: 100%;
+}
+
+.gg-section-container > div {
+    margin: 0 auto;
+    max-width: 1000px;
+    float: none;
+}
+
+.gg-section-container {
+    padding: 6em 4em;
+}
+
+.gg-section-one .gg-text {
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+
+.gg-section-one .gg-img{
+    width: 35%;
+    transform:rotate(2deg);
+    -ms-transform:rotate(2deg); /* IE 9 */
+    -webkit-transform:rotate(2deg); /* Opera, Chrome, and Safari */
+}
+
+.gg-section-one .gg-img img{
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 4px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+
+.gg-section-one-wrapper{
+    background: url(images/bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ade;
+}
+
+.gg-section-two-wrapper {
+    background: url(images/field.svg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 6em 4em 4em;
+}
+
+.gg-section-two .gg-text {
+    margin-left: 10%;
+    width: 40%;
+}
+
+.gg-section-two .gg-svg.gg-shield {
+    width: 50%;
+    margin-top: 1%;
+}
+
+.gg-section-two .gg-svg.gg-campus {
+    width: 60%;
+    margin: 15% 0 0 20%;
+}
+
+.gg-section-three .gg-text {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.gg-section-three img {
+    width: 30%;
+    border-radius: 50%;
+    border: 8px solid #07b1a2;
+}
+
+.gg-section-four .gg-svg {
+    width: 30%;
+}
+
+.gg-section-four .gg-text {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.gg-section-three-wrapper, .gg-section-four-wrapper, .gg-section-five-wrapper {
+    border-color: #83C6CF;
+    border-width: 0 0 1px;
+    border-style: solid
+}
+
+.gg-section-five .gg-svg {
+    width: 30%;
+}
+
+.gg-section-five .gg-text {
+    width: 65%;
+    margin-right: 5%;
+
+}
+
+
+[class^="gg-section-six-"] {
+    width: 33%;
+}
+
+.gg-section-six h2 {
+    font-size: 2.6em;
+    text-align: center;
+}
+
+.gg-section-six-b img {
+    width: 66%;
+}
+
+.gg-section-six .gg-text{
+    padding: 2em;
+}
+
+.gg-section-six img{
+    display: block;
+    float: none;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.gg-section-six .gg-svg {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.gg-section-six-b img{
+    display: block;
+    float: none;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.gg-section-six-c .gg-svg {
+    margin-top: 4em;
+}
+
+.gg-section-six-c .gg-svg img{
+    width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .gg-wrapper p {
+        font-size: 2em;
+    }
+
+    .gg-section-container > div {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+	.gg-wrapper p {
+        font-size: 2em;
+    }
+
+    .gg-wrapper h2 {
+        font-size: 3em;
+    }
+
+    .gg-section-one .gg-text {
+        margin-top: 2%;
+    }
+
+    .gg-section-two .gg-text {
+        margin-top: 0;
+    }
+
+    .gg-section-six h2 {
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .gg-wrapper p {
+        font-size: 1.7em;
+    }
+
+    .gg-section-four .gg-svg {
+        margin-bottom: 5% !important;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+
+    .gg-section-container {
+        padding: 4em 2em;
+    }
+
+    .gg-section-container div {
+        width: 100% !important;
+        clear: both;
+        margin: 0 !important;
+    }
+
+    .gg-section-one p, .gg-section-five p {
+        margin-bottom: 2em;
+    }
+
+    .gg-section-container p {
+        margin-bottom: 2em !important;
+    }
+
+    .gg-section-container img {
+        width: 50% !important;
+        margin-left: 25% !important;
+        margin-right: 25% !important;
+    }
+
+    .gg-section-one img, .gg-section-two img {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+        margin-bottom: 7% !important;
+    }
+
+    .gg-section-three-wrapper {
+        background-position: 75% 25%;
+    }
+
+    .gg-section-container [class^="gg-section-six-"] {
+        margin-top: 3em !important;
+    }
+
+    .gg-section-container .gg-section-six-a {
+        margin-top: 0 !important;
+    }
+
+    .gg-section-container .gg-section-six h2 {
+        font-size: 2.6em;
+    }
+
+    .gg-section-container .gg-section-six img {
+        width: 40% !important;
+        margin-left: 30% !important;
+        margin-right: 30% !important;
+    }
+
+}

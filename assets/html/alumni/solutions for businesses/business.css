@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gg-wrapper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+.gg-wrapper  {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+.gg-section-container-wrapper .gg-svg {
+    height: auto;
+}
+
+.gg-svg img{
+    width: 100%;
+    height: auto;
+}
+.gg-wrapper img {
+    height: auto !important;
+}
+
+.gg-wrapper a{
+    color: #11747c;
+}
+
+.gg-section-container :after, .gg-section-container > div:after{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    clear: both;
+}
+
+.gg-wrapper h2 {
+    /*font-family: "museo-slab";*/
+    font-family: "Museo Slab";
+    font-size: 4.2em;
+    color: #2d3c49;
+    margin-bottom: .5em;
+    font-weight: 300 !important;
+}
+
+.gg-wrapper h2 {
+    font-size: 3.6em;
+    font-weight: 300;
+}
+
+.gg-wrapper p {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 2em;
+    color: #68879a;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.gg-section-container {
+    width: 100%;
+}
+
+.gg-section-container > div {
+    margin: 0 auto;
+    max-width: 1000px;
+    float: none;
+}
+
+.gg-section-container {
+    padding: 6em 4em;
+}
+
+.gg-section-one .gg-text {
+    width: 35%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.gg-section-one .gg-svg {
+    width: 20%;
+}
+
+.gg-section-one-wrapper, .gg-section-seven-wrapper {
+    background: url(https://s3.amazonaws.com/givegab-sqsp/images/bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: #ade;
+}
+
+.gg-section-two .gg-text {
+    width: 50%;
+    margin-top: 1%;
+}
+
+.gg-section-two img {
+    width: 40%;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    margin: 0 50px 20px 0;
+    padding: 4px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+
+.gg-section-three-wrapper {
+    background-image: url(https://s3.amazonaws.com/givegab-sqsp/images/speaking.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    clear: both;
+}
+
+.gg-section-three .gg-text {
+    margin-top: 2%;
+}
+
+.gg-section-three h2, .gg-section-three p  {
+    color: #fff !important;
+    text-shadow: 1px 1px #000;
+}
+
+.gg-section-four .gg-svg {
+    width: 25%;
+}
+
+.gg-section-four .gg-text {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.gg-section-five-wrapper {
+    border-color: #83C6CF;
+    border-width: 1px 0;
+    border-style: solid
+}
+
+[class^="gg-section-six-"] {
+    width: 33%;
+}
+
+.gg-section-six h2 {
+    font-size: 2.6em;
+    text-align: center;
+}
+
+.gg-section-six-b img {
+    width: 66%;
+}
+
+.gg-section-five .gg-svg {
+    width: 17%;
+}
+
+.gg-section-five .gg-text {
+    width: 78%;
+    margin-right: 5%;
+
+}
+
+.gg-section-six .gg-text{
+    padding: 2em;
+}
+
+.gg-section-six img{
+    display: block;
+    float: none;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.gg-section-six .gg-svg {
+    width: 100%;
+    margin-top: 3em;
+}
+
+.gg-section-six-b img{
+    display: block;
+    float: none;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.gg-section-seven h2, .gg-section-seven p, .gg-section-seven a{
+    float: none;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.gg-section-seven h2 + p {
+    margin-bottom: 3em;
+}
+
+.btn-contact {
+    background-color: #07B1A4;
+    border-bottom: 3px solid #087D71;
+    color: white !important;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "proxima-nova-alt", helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.btn-contact::after {
+    content: none;
+}
+
+.btn-contact:hover {
+    background-color: #0da2c6;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .gg-wrapper p {
+        font-size: 2em;
+    }
+
+    .gg-section-container > div {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+	.gg-wrapper p {
+        font-size: 2em;
+    }
+
+    .gg-wrapper h2 {
+        font-size: 3em;
+    }
+
+    .gg-section-one .gg-text {
+        margin-top: 2%;
+    }
+
+    .gg-section-two .gg-text {
+        margin-top: 0;
+    }
+
+    .gg-section-six h2 {
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .gg-wrapper p {
+        font-size: 1.7em;
+    }
+
+    .gg-section-four .gg-svg {
+        margin-bottom: 5% !important;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+
+    .gg-section-container {
+        padding: 4em 2em;
+    }
+
+    .gg-section-container div {
+        width: 100% !important;
+        clear: both;
+        margin: 0 !important;
+    }
+
+    .gg-section-one p, .gg-section-five p {
+        margin-bottom: 2em;
+    }
+
+    .gg-section-container p {
+        display: none;
+    }
+
+    .gg-section-container img {
+        width: 50% !important;
+        margin-left: 25% !important;
+        margin-right: 25% !important;
+    }
+
+    .gg-section-container .gg-section-two img {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .gg-section-three-wrapper {
+        background-position: 75% 25%;
+    }
+
+    .gg-section-container [class^="gg-section-six-"] {
+        margin-top: 3em !important;
+    }
+
+    .gg-section-container .gg-section-six-a {
+        margin-top: 0 !important;
+    }
+
+    .gg-section-container .gg-section-six h2 {
+        font-size: 2.6em;
+    }
+
+    .gg-section-container .gg-section-six img {
+        width: 40% !important;
+        margin-left: 30% !important;
+        margin-right: 30% !important;
+    }
+
+}

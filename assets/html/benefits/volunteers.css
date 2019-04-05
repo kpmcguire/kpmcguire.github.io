@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+}
+
+.gg-wrapper * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+.gg-wrapper  {
+    font-size: 62.5%;
+}
+
+.gg-wrapper img {
+    height: auto !important;
+}
+
+.gg-wrapper {
+    overflow: hidden;
+}
+
+.gg-section-container :after, .gg-section-container > div:after{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+    clear: both;
+}
+
+.gg-wrapper h1, .gg-wrapper h2 {
+    font-family: "Helvetica Neue";
+    font-size: 4em;
+    color: #2d3c49 !important;
+    margin-bottom: .5em;
+    font-weight: 300;
+}
+
+.gg-wrapper h2 {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.gg-wrapper p {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 2em;
+    color: #68879a;
+    margin-bottom: 5em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.gg-section-container {
+    width: 100%;
+}
+
+.gg-section-container > div {
+    margin: 0 auto;
+    max-width: 1200px;
+    float: none;
+}
+
+.gg-section-container {
+    padding: 6em 3em;
+}
+
+.gg-causes-wrapper {
+    background-image: url(images/bg-causes-big.png);
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+
+.gg-headline {
+    width: 100%;
+}
+
+.gg-causes .gg-logo {
+    width: 22%;
+    margin-right: 2%;
+}
+
+.gg-causes .gg-headline {
+    margin: 0 0 4% 13%;
+}
+
+.gg-headline h1 {
+    margin-top: 1.25%;
+}
+
+.gg-causes .gg-text {
+    background: none;
+    width: 37%;
+    margin-left: 10%;
+    margin-top: 0;
+}
+
+.gg-causes-image {
+    width: 26%;
+    margin-left: 14%;
+}
+
+
+.gg-invite .gg-text {
+    width: 50%;
+    top: 30px;
+    float: left;
+    margin-left: 7.5%;
+}
+
+.gg-invite .gg-invite-image {
+    width: 26%;
+    margin-left: 7.5%;
+}
+
+.gg-invite-photo {
+    background-image: url(images/photo-invite.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    clear: both;
+}
+
+.gg-track p {
+    width: 60%;
+}
+
+.gg-reminders p {
+    width: 80%;
+}
+
+.gg-fun p {
+    width: 70%;
+}
+
+.gg-track-image {
+    width: 46%;
+}
+
+.gg-reminders-image {
+    width: 29%;
+}
+
+.gg-fun-image {
+    width: 28%;
+}
+
+.gg-track-image, .gg-reminders-image, .gg-fun-image{
+    display: block;
+    float: none;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+.gg-triple-wrapper {
+    padding: 6em 0;
+}
+
+.gg-triple-wrapper > div > div {
+    width: 33%;
+    float: left;
+    padding: 0;
+}
+
+.gg-triple-wrapper h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.gg-triple-wrapper .gg-text  {
+    padding: 1em;
+}
+
+.gg-triple-wrapper p {
+    font-size: 2em;
+    display: block;
+    float: none;
+    text-align: center;
+    margin: 0 auto 1em;
+}
+
+.gg-story-wrapper {
+    background-image: url(images/bg-story-repeat.png);
+}
+
+.gg-story {
+    padding: 0 2em;
+}
+
+.gg-story-image {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.gg-profile .gg-text {
+    width: 54%;
+    margin-left: 3%;
+}
+
+.gg-profile-image {
+    width: 25%;
+    margin-left: 10%;
+}
+
+.gg-social-wrapper {
+    background: url(images/bg-social-repeat.png) repeat-x 0 15px;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.gg-social {
+}
+
+.gg-social .gg-social-image {
+    width: 45%;
+    margin-top: 6em;
+    margin-left: 8%;
+}
+
+.gg-social .gg-text {
+    background: none;
+    width: 40%;
+    margin-left: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .gg-wrapper h1, .gg-wrapper h2 {
+        font-size: 4em;
+    }
+
+    .gg-wrapper p {
+        font-size: 2em;
+    }
+
+    .gg-section-container > div {
+        width: 100%;
+    }
+
+    .gg-story .gg-story-image {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .gg-social .gg-social-image {
+        width: 45%;
+    }
+
+    .gg-invite-photo {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .gg-wrapper p {
+        font-size: 2em;
+    }
+
+    .gg-wrapper h2 {
+        font-size: 3em;
+    }
+
+    .gg-causes h1 {
+        margin-top: 0;
+    }
+
+    .gg-causes .gg-causes-image {
+        margin-top: 5%;
+    }
+
+
+    .gg-invite-photo {
+        min-height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .gg-wrapper p {
+        font-size: 1.7em;
+    }
+
+    .gg-triple-wrapper p {
+        font-size: 1.5em;
+    }
+
+    .gg-wrapper h1 {
+        font-size: 2.7em;
+    }
+
+    .gg-wrapper h2 {
+        font-size: 2.5em;
+    }
+
+    .gg-causes h1 {
+        margin-top: .7%;
+    }
+
+    .gg-causes .gg-text {
+        width: 44%;
+    }
+
+    .gg-causes .gg-causes-image {
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 665px) {
+
+
+    .gg-causes h1 {
+        font-size: 2em;
+        width: 100%;
+        text-align: center;
+        margin-bottom: .5em !important;
+    }
+
+    .gg-causes .gg-logo {
+        width: 80%;
+        display: block;
+        float: none;
+        margin: 0 auto 1em;
+    }
+
+    .gg-causes .gg-headline {
+        margin-bottom: 3em;
+    }
+
+    .gg-causes .gg-causes-image {
+        width: 26%;
+        margin-left: 14%;
+    }
+
+    .gg-section-container div {
+        width: 100% !important;
+        clear: both;
+        margin: 0 !important;
+    }
+
+    .gg-text p {
+        margin-bottom: 2em !important;
+    }
+
+    .gg-section-container img {
+        width: 80% !important;
+        margin-left: 10% !important;
+        margin-right: 10% !important;
+    }
+
+    .gg-invite img {
+        margin-bottom: 3em;
+    }
+
+    .gg-section-container .gg-triple > div {
+        margin-bottom: 2em;
+    }
+
+    .gg-triple p {
+        margin-bottom: 1em;
+    }
+
+    .gg-triple img {
+        width: 33% !important;
+        margin-left: 33% !important;
+        margin-right: 33% !important;
+        margin-bottom: 2em;
+    }
+
+    .gg-triple-wrapper .gg-track-image {
+        width: 184px;
+        height: 131px;
+    }
+
+    .gg-triple-wrapper .gg-reminders-image {
+        width: 119px;
+        height: 116px;
+    }
+
+    .gg-triple-wrapper .gg-fun-image {
+        width: 113px;
+        height: 100px;
+    }
+
+}
+
+

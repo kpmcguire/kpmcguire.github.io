@@ -10,7 +10,8 @@ $fgcolor: #d5df37;
 	margin: 0;
 	
 	li {
-		column-break-inside: avoid;
+		display: inline-block;
+		margin: 1em 0;							 
 
 		a {
 			border: 1px solid lighten($gray, 40);
@@ -18,18 +19,12 @@ $fgcolor: #d5df37;
 			border-radius: 0.25em;
 			display: flex;
 			flex-direction: column;
-			margin: 1em 0;
 			background-color: lighten($gray, 55);
 			
 			&:hover, &:focus {
 				border-color: lighten($gray, 20);
 				background-color: white;
-			}
-			
-			&:first-child {
-				margin: 0 0 1em;
-			}
-			
+			}			
 		}
 		
 		img {
@@ -107,7 +102,7 @@ body {
 			list-style: inside disc;
 		}
 		
-		p, li {
+		p, li, dl {
 			color: $gray
 		}
 	}
@@ -140,4 +135,52 @@ footer {
 	margin-right: 1em;
 	margin-bottom: 1em;
 	display: block;
+}
+
+.text-center {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.page-content .post-content .actor {
+	margin-top: 1.5em;
+	margin-bottom: -0.75em;
+	font-weight: bold;
+}
+
+.page-content .post-content .screenplay {
+	p {
+		margin: 3em 0;
+	}
+
+	dl {
+		max-width: 550px;
+		margin: 0 auto;
+		line-height: 1.6;
+
+		dt {
+			text-align: center;
+			font-weight: bold;
+		}
+
+		dd {
+			text-align: left;
+
+			+ dt {
+				margin-top: 3em;
+			}
+		}
+	}
+}
+
+.site-nav {
+	background-color: $bgcolor;
+
+	@media screen and (max-width: 600px) {
+		background-color: lighten($bgcolor, 10);	
+	}
+
+	.menu-icon > svg {
+		fill: #fff;
+	}
 }

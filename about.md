@@ -16,13 +16,12 @@ What’s this? It looks like a script. Or maybe just a cry for help.
 
 INT. BRIDGE, THE STARSHIP ENTERPRISE
 
-KEVIN sits in the Captain's chair. He looks up at the camera, with an impudent twinkle in his eye.
+_KEVIN sits in the Captain's chair. He looks up at the camera, with an impudent twinkle in his eye._
 
 KEVIN
 : They say where we’re going, we don’t need roads…
 
-_LT. COMMANDER DATA
-: enters the frame._
+_LT. COMMANDER DATA enters the frame._
 
 DATA
 : Excuse me sir, but that is from the wrong Science fiction franchise. Should you not have said something about how web development is the “Final Frontier”?

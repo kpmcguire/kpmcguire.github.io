@@ -24,4 +24,4 @@ Another scratching my own itch kind of thing. Although this is still very much a
 [Live demo of Ithaca Events Calendar][ithacacalendardemo]
 
 [ithaca]: https://github.com/kpmcguire/event_scraper
-[ithacacalendardemo]: https://agile-everglades-74411.herokuapp.com/
+[ithacacalendardemo]: https://ithaca-event-calendar.herokuapp.com/

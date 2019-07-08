@@ -4,11 +4,11 @@ title: Projects
 permalink: /projects/
 ---
 
-Here are some projects I've been working on.
+Here are some projects I've worked on.
 
 ## [Auto Accessible Color Picker][auto]
 
-I made this because I felt like all the other accessible color pickers weren't very good. I like hue-based color pickers (similar to what is used in photohop). I thought it would be cool to give the option to let the app choose the color automatically. This is all possible because of the awesome [Tinycolor][tinycolor] library.
+I made this because I felt like all the other accessible color pickers weren't very good. I like hue-based color pickers (similar to what you use in photohop). I thought it would be cool to have the app choose the color automatically. This is all possible because of the awesome [Tinycolor][tinycolor] library.
 
 [Live Demo of Auto Accessible Color Picker][demo]
 
@@ -25,3 +25,12 @@ Another scratching my own itch kind of thing. Although this is still very much a
 
 [ithaca]: https://github.com/kpmcguire/event_scraper
 [ithacacalendardemo]: https://ithaca-event-calendar.herokuapp.com/
+
+## [Gascan][gascangithub]
+
+This is a Gas Mileage tracking app. I was doing this manually, and I realized I could pretty easily build this as a webapp to save myself from having to do the math. I built this with Django to familiarize myself with it.
+
+[Live demo of Gascan][gascanheroku]
+
+[gascangithub]: https://github.com/kpmcguire/gascan_app
+[gascanheroku]: https://gascanapp.herokuapp.com/ 

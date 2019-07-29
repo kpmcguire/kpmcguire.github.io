@@ -27,7 +27,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-autoprefixer
 
 collections:
   work:
@@ -37,9 +36,9 @@ sass:
     sass_dir: _scss
     style: compressed
     
-autoprefixer:
-  browsers:
-  - last 4 versions    
+# autoprefixer:
+#   browsers:
+#   - last 4 versions    
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -53,12 +52,12 @@ autoprefixer:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-mini_magick:
-    thumbnail: # Preset name
-        source: assets/images/original # source directory - change this to whatever you want
-        destination: assets/images/thumb # generated destination directory
-        resize: "200" # standard imagemagick options - you can chain multiple commands
-    resized: # Preset name
-        source: assets/images/original # source directory - change this to whatever you want
-        destination: assets/images/resized # generated destination directory
-        resize: "800" # standard imagemagick options - you can chain multiple commands
+# mini_magick:
+#     thumbnail: # Preset name
+#         source: assets/images/original # source directory - change this to whatever you want
+#         destination: assets/images/thumb # generated destination directory
+#         resize: "200" # standard imagemagick options - you can chain multiple commands
+#     resized: # Preset name
+#         source: assets/images/original # source directory - change this to whatever you want
+#         destination: assets/images/resized # generated destination directory
+#         resize: "800" # standard imagemagick options - you can chain multiple commands

@@ -18,46 +18,25 @@ email: kpmcguire@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     A web designer and developer living in scenic Ithaca, New York.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kpmcguire.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  kpmcguire
 
 # Build settings
 markdown: kramdown
 theme: minima
+
+paginate: 10
+paginate_path: "/page:num"
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 collections:
   work:
     output: true
-    
+ 
 sass:
     sass_dir: _scss
     style: compressed
-    
-# autoprefixer:
-#   browsers:
-#   - last 4 versions    
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# mini_magick:
-#     thumbnail: # Preset name
-#         source: assets/images/original # source directory - change this to whatever you want
-#         destination: assets/images/thumb # generated destination directory
-#         resize: "200" # standard imagemagick options - you can chain multiple commands
-#     resized: # Preset name
-#         source: assets/images/original # source directory - change this to whatever you want
-#         destination: assets/images/resized # generated destination directory
-#         resize: "800" # standard imagemagick options - you can chain multiple commands

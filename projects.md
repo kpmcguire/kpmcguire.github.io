@@ -34,3 +34,13 @@ This is a Gas Mileage tracking app. I was doing this manually, and I realized I 
 
 [gascangithub]: https://github.com/kpmcguire/gascan_app
 [gascanheroku]: https://gascanapp.herokuapp.com/ 
+
+## [Welcome to.. Your Perfect Score Sheet][welcometogithub]
+
+A javascript verison of the scoresheet for the paper-based game ["Welcome To.. Your Perfect Home"][welcometopub] by Blue Cocker games. Handy if you run out of sheets. It tries to save your score, even if you reload the page, by using browser localStorage.
+
+[Live demo of the scoresheet][welcometolive]
+
+[welcometogithub]:https://github.com/kpmcguire/welcome_to_your_perfect_score_sheet
+[welcometopub]:https://bluecocker.com/en/produit/welcome/
+[welcometolive]:https://kpmcguire.github.io/welcome_to_your_perfect_score_sheet/dist/index.html

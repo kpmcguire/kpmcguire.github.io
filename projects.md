@@ -44,3 +44,14 @@ A javascript verison of the scoresheet for the paper-based game ["Welcome To.. Y
 [welcometogithub]:https://github.com/kpmcguire/welcome_to_your_perfect_score_sheet
 [welcometopub]:https://bluecocker.com/en/produit/welcome/
 [welcometolive]:https://kpmcguire.github.io/welcome_to_your_perfect_score_sheet/dist/index.html
+
+## [Pokemon Battler][pokemongithub]
+
+A simple game. Pits two monsters against one another, and lets you wager on which one you think will win. If you can keep a streak going, you stand to make a lot of fake money.
+
+[Live demo of the Battler][pokemonlive]
+
+[pokemonlive]:https://kind-wing-66bf53.netlify.com/
+
+[pokemongithub]:https://github.com/kpmcguire/pokemon-battler
+

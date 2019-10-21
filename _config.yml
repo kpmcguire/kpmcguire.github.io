@@ -23,7 +23,7 @@ url: "https://kpmcguire.github.io" # the base hostname & protocol for your site,
 github_username:  kpmcguire
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
 theme: minima
 
 paginate: 10
@@ -40,3 +40,7 @@ collections:
 sass:
     sass_dir: _scss
     style: compressed
+
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]    

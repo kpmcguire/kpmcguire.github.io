@@ -35,6 +35,17 @@ This is a Gas Mileage tracking app. I was doing this manually, and I realized I 
 [gascangithub]: https://github.com/kpmcguire/gascan_app
 [gascanheroku]: https://gascanapp.herokuapp.com/ 
 
+
+## [Gascan JS][gascanjsgithub]
+
+This is a JS gas mileage tracking app. I made this using VueJS. It exists because the version of the above Django Gascan was hosted on Heroku, which sleeps your free apps, and I wanted to have something that loaded immediately, so I used VueJS and Netlify.
+
+[Live demo of Gascan JS][gascanjsnetlify]
+
+[gascanjsgithub]:https://github.com/kpmcguire/gascanjs
+[gascanjsnetlify]:https://gascan.netlify.com
+
+
 ## [Welcome to.. Your Perfect Score Sheet][welcometogithub]
 
 A javascript verison of the scoresheet for the paper-based game ["Welcome To.. Your Perfect Home"][welcometopub] by Blue Cocker games. Handy if you run out of sheets. It tries to save your score, even if you reload the page, by using browser localStorage.

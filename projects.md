@@ -38,7 +38,7 @@ This is a Gas Mileage tracking app. I was doing this manually, and I realized I 
 
 ## [Gascan JS][gascanjsgithub]
 
-This is a JS gas mileage tracking app. I made this using VueJS. It exists because the version of the above Django Gascan was hosted on Heroku, which sleeps your free apps, and I wanted to have something that loaded immediately, so I used VueJS and Netlify.
+This is a JS gas mileage tracking app. I made it with VueJS. It exists because the Django version of Gascan was hosted on Heroku, which sleeps your free apps, and I wanted to have something that loaded immediately. This one is hosted on Netlify.
 
 [Live demo of Gascan JS][gascanjsnetlify]
 

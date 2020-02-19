@@ -74,3 +74,12 @@ A place to store bookmarks. Remember Delicious? Magnolia? Like that, but I wrote
 
 [bml-github]: https://github.com/kpmcguire/bookmarks-a-lot
 [bml-live]: https://bookmarks-a-lot.netlify.com/
+
+## [kpmweather][kpmweather-github]
+
+A single page app that shows you the weather. Data from Darksky.
+
+[Live demo of kpmweather][kpmweather-live]
+
+[kpmweather-github]: https://github.com/kpmcguire/kpmcguire-weather
+[kpmweather-live]: https://kpmweather.herokuapp.com/

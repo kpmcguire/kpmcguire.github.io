@@ -12,176 +12,238 @@ Check out [Kevin's Resume](/assets/pdf/kpmcguire-resume.pdf).
 
 What’s this? It looks like a script. Or maybe just a cry for help.
 
-<div class="screenplay" markdown="1">
+<div class="screenplay" >
 
-INT. BRIDGE, THE STARSHIP ENTERPRISE
+<p class="scene">INT. BRIDGE, THE STARSHIP ENTERPRISE</p>
 
-_KEVIN sits in the Captain's chair. He looks up at the camera, with an impudent twinkle in his eye._
+<p class='stage-direction'>KEVIN sits in the Captain's chair. He looks up at the camera, with an impudent twinkle in his eye.</p>
 
-KEVIN
-: They say where we’re going, we don’t need roads…
+<p class='speaker'>KEVIN</p>
 
-_LT. COMMANDER DATA enters the frame._
+They say where we’re going, we don’t need roads…
 
-DATA
-: Excuse me sir, but that is from the wrong Science fiction franchise. Should you not have said something about how web development is the “Final Frontier”?
+<p class='stage-direction'>LT. COMMANDER DATA enters the frame.</p>
 
-KEVIN
-: Hello Data. You’re just as annoying as ever. I was trying to be funny. And that’s something you never learned how to do.
+<p class='speaker'>DATA</p>
 
-DATA
-: You are correct. Although, you are quite funny.
+Excuse me sir, but that is from the wrong Science fiction franchise. Should you not have said something about how web development is the “Final Frontier”?
 
-KEVIN
-: Oh, Data, stop.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: No, I really must tell the reader about all of your wonderful qualities.
+Hello Data. You’re just as annoying as ever. I was trying to be funny. And that’s something you never learned how to do.
 
-KEVIN
-: If you must.
+<p class='speaker'>DATA</p>
 
-DATA
-: You are the one writing this.
+You are correct. Although, you are quite funny.
 
-KEVIN
-: Get on with it.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: Kevin Paul McGuire, born in the late 20th century, was an enigma. Not much is known about him aside from his impeccable taste in music and movies.
+Oh, Data, stop.
 
-KEVIN
-: Why don’t you tell them about my favorite movie?
+<p class='speaker'>DATA</p>
 
-DATA
-: It is called Primer. Directed by Shane Carruth, it was a laughably inaccurate film that depicts a fictionalized version of time travel that allows the protagonists to lounge around in hotel rooms and gamble with something called “the stock market”. It seems like something the Ferengi would do.
+No, I really must tell the reader about all of your wonderful qualities.
 
-KEVIN
-: I think you’re missing the point. Well, why don’t you tell them about my exquisite taste in music?
+<p class='speaker'>KEVIN</p>
 
-DATA
-: I myself play the oboe.
+If you must.
 
-KEVIN
-: Is that so. What about my taste in music.
+<p class='speaker'>DATA</p>
 
-DATA
-: Not much is known about Mr. McGuire’s taste in music, aside from his recovered audioscrobbles from the extinct internet service last dot fm.
+You are the one writing this.
 
-KEVIN
-: I haven’t used that for years.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: It seems the Faint’s album “Danse Macabre” was listened to quite often.
+Get on with it.
 
-KEVIN
-: No it wasn’t! I mean, that’s from 15 years ago! I listen to other stuff now.
+<p class='speaker'>DATA</p>
 
-DATA
-: Such as?
+Kevin Paul McGuire, born in the late 20th century, was an enigma. Not much is known about him aside from his impeccable taste in music and movies.
 
-KEVIN
-: I really like the Breeders.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: Kim Deal is a very good songwriter.
+Why don’t you tell them about my favorite movie?
 
-KEVIN
-: Sure is. I also really like Guided By Voices.
+<p class='speaker'>DATA</p>
 
-DATA
-: You must like some music that is not from Dayton, Ohio.
+It is called Primer. Directed by Shane Carruth, it was a laughably inaccurate film that depicts a fictionalized version of time travel that allows the protagonists to lounge around in hotel rooms and gamble with something called “the stock market”. It seems like something the Ferengi would do.
 
-KEVIN
-: Not really.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: I know that I said not much is known about you except for your taste in music and movies, but the author of this terrible script, you, has already forgotten about that, so I am going to tell you about Kevin’s other interests.
+I think you’re missing the point. Well, why don’t you tell them about my exquisite taste in music?
 
-KEVIN
-: Sure.
+<p class='speaker'>DATA</p>
 
-DATA
-: Kevin also enjoys looking at typefaces in all kinds of media and attempting to identify them. This is something I do quite easily with my ocular perceptors and positronic brain. Kevin can usually only manage to identify a typeface correctly 92.275% of the time. Laughable.
+I myself play the oboe.
 
-KEVIN
-: I also like websites.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: What is a “web sight”?
+Is that so. What about my taste in music?
 
-KEVIN
-: It’s like a… thing that you look at… in a firefox window.
+<p class='speaker'>DATA</p>
 
-DATA
-: As a being from the 24th century, that sentence is complete nonsense to me.
+Not much is known about Mr. McGuire’s taste in music, aside from his recovered audioscrobbles from the extinct internet service last dot fm.
 
-KEVIN
-: Documents and applications for displaying data and performing tasks?
+<p class='speaker'>KEVIN</p>
 
-DATA
-: Something like our LCARS system.
+I haven’t used that for years.
 
-KEVIN
-: Yes, quite like that.
+<p class='speaker'>DATA</p>
 
-DATA
-: Do you create these “web sights”?
+It seems the Faint’s album “Danse Macabre” was listened to quite often.
 
-KEVIN
-: Yes, I do.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: That is such a primitive term.
+No it wasn’t! I mean, that’s from 15 years ago! I listen to other stuff now.
 
-KEVIN
-: I don’t disagree.
+<p class='speaker'>DATA</p>
 
-DATA
-: Well, according to the log file, Kevin started making “web sights” back in 1996, when he first got online and made a Dune fanpage. It seems like it was just audio clips from the Dune Soundtrack CD he purchased.
+Such as?
 
-KEVIN
-: It was much more than that! It also had a couple of cool Sandworm drawings.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: And from that point forward, he made web pages for fun and for a living. Sometime around CE 2013, he was employed at a place where, instead of pages, they made user interfaces.
+I really like the Breeders.
 
-KEVIN
-: I feel I have a real gift for that.
+<p class='speaker'>DATA</p>
 
-DATA
-: I concur. You have long desired to work crafting user interfaces.
+Kim Deal is a very good songwriter.
 
-KEVIN
-: I enjoy it. Anything else in that data bank of yours?
+<p class='speaker'>KEVIN</p>
 
-DATA
-: You have watched the entirety of Star Trek: The Next Generation.
+Sure is. I also really like Guided By Voices.
 
-KEVIN
-: So, what, did you get a hold of Netflix log files, too?
+<p class='speaker'>DATA</p>
 
-DATA
-: Yes, you have also watched every episode of Frasier.
+You must like some music that is not from Dayton, Ohio.
 
-KEVIN
-: That’s right.
+<p class='speaker'>KEVIN</p>
 
-DATA
-: You know, I was on an episode of that.
+Not really.
 
-KEVIN
-: Wait, you, or Brent Spiner?
+<p class='speaker'>DATA</p>
+
+I know that I said not much is known about you except for your taste in music and movies, but the author of this terrible script, you, has already forgotten about that, so I am going to tell you about Kevin’s other interests.
+
+<p class='speaker'>KEVIN</p>
+
+Sure.
+
+<p class='speaker'>DATA</p>
+
+Kevin also enjoys looking at typefaces in all kinds of media and attempting to identify them. This is something I do quite easily with my ocular perceptors and positronic brain. Kevin can usually only manage to identify a typeface correctly 92.275% of the time. Laughable.
+
+<p class='speaker'>KEVIN</p>
+
+I also like websites.
+
+<p class='speaker'>DATA</p>
+
+What is a “web sight”?
+
+<p class='speaker'>KEVIN</p>
+
+It’s like a… thing that you look at… in a firefox window.
+
+<p class='speaker'>DATA</p>
+
+As a being from the 24th century, that sentence is complete nonsense to me.
+
+<p class='speaker'>KEVIN</p>
+
+Documents and applications for displaying data and performing tasks?
+
+<p class='speaker'>DATA</p>
+
+Something like our LCARS system.
+
+<p class='speaker'>KEVIN</p>
+
+Yes, quite like that.
+
+<p class='speaker'>DATA</p>
+
+Do you create these “web sights”?
+
+<p class='speaker'>KEVIN</p>
+
+Yes, I do.
+
+<p class='speaker'>DATA</p>
+
+That is such a primitive term.
+
+<p class='speaker'>KEVIN</p>
+
+I don’t disagree.
+
+<p class='speaker'>DATA</p>
+
+Well, according to the log file, Kevin started making “web sights” back in 1996, when he first got online and made a Dune fanpage. It seems like it was just audio clips from the Dune Soundtrack CD he purchased.
+
+<p class='speaker'>KEVIN</p>
+
+
+It was much more than that! It also had a couple of cool Sandworm drawings.
+
+<p class='speaker'>DATA</p>
+
+
+And from that point forward, he made web pages for fun and for a living. Sometime around CE 2013, he was employed at a place where, instead of pages, they made user interfaces.
+
+<p class='speaker'>KEVIN</p>
+
+
+I feel I have a real gift for that.
+
+<p class='speaker'>DATA</p>
+
+
+I concur. You have long desired to work crafting user interfaces.
+
+<p class='speaker'>KEVIN</p>
+
+
+I enjoy it. Anything else in that data bank of yours?
+
+<p class='speaker'>DATA</p>
+
+
+You have watched the entirety of Star Trek: The Next Generation.
+
+<p class='speaker'>KEVIN</p>
+
+
+So, what, did you get a hold of Netflix log files, too?
+
+<p class='speaker'>DATA</p>
+
+
+Yes, you have also watched every episode of Frasier.
+
+<p class='speaker'>KEVIN</p>
+
+
+That’s right.
+
+<p class='speaker'>DATA</p>
+
+You know, I was on an episode of that.
+
+<p class='speaker'>KEVIN</p>
+
+Wait, you, or Brent Spiner?
 
 _DATA rips off his face to reveal the face of BRENT SPINER underneath. Brent Spiner, being the actor that played Data, looks pretty much just like Data, but his skin isn’t yellow._
 
-BRENT SPINER
-: ERROR – DOES NOT COMPUTE – GURU MEDITATION – END OF FILE – REMEMBER THE FAIL WHALE THAT WAS BACK WHEN TWITTER WASN'T A DUMPSTER FIRE
+<p class='speaker'>BRENT SPINER</p>
 
-KEVIN
-: (Laughing) we have fun here.
+ERROR – DOES NOT COMPUTE – GURU MEDITATION – END OF FILE – REMEMBER THE FAIL WHALE THAT WAS BACK WHEN TWITTER WASN'T A DUMPSTER FIRE
 
-_Brent Spiner explodes. Fade to black._
+<p class='speaker'>KEVIN</p>
+
+(Laughing) we have fun here.
+
+<p class='stage-direction'>Brent Spiner explodes. Fade to black.</p>
 
 </div>
 

@@ -26,7 +26,7 @@ They say where we’re going, we don’t need roads…
 
 <p class='speaker'>DATA</p>
 
-Excuse me sir, but that is from the wrong Science fiction franchise. Should you not have said something about how web development is the “Final Frontier”?
+Excuse me sir, but that is from the wrong science fiction franchise. Should you not have said something about how web development is the “Final Frontier”?
 
 <p class='speaker'>KEVIN</p>
 

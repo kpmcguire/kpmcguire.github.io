@@ -9,7 +9,7 @@ I've been working on a game. Try it out. It's not good yet. But it will get bett
 
 Here's [the game on github][curb-github].
 
-Here's [the game you can play in your browser][curb-browser].
+Here's [the game you can play in your browser][curb-live].
 
 ### Thoughts for the future:
 

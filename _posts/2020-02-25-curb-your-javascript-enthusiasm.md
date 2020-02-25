@@ -20,5 +20,5 @@ Here's [the game you can play in your browser][curb-live].
 - There should be an essence of Larry being like the goose in untitled goose game, but not so much as to be derivative. Just Larry, wandering around LA, causing trouble.
 
 [curb-github]: https://github.com/kpmcguire/curb-game
-[curb-live]: https://curb-your-javascript.netlify.com/ 
+[curb-live]: https://kpmcguire.github.io/curb-game/dist/index.html
 

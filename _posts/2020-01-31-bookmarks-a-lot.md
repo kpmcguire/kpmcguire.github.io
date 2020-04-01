@@ -54,7 +54,7 @@ So, yeah. A work in progress, like everything. Check it out!
 [Bookmarks-a-lot][bml-live]
 
 [bml-github]: https://github.com/kpmcguire/bookmarks-a-lot
-[bml-live]: https://bookmarks-a-lot.netlify.com/
+[bml-live]: https://bookmarks-a-lot.netlify.app/
 [raybo]: https://raybo.org
 [lynda-react-spas]: https://www.lynda.com/course-tutorials/React-SPAs/774920-2.html?srchtrk=index%3a1%0alinktypeid%3a2%0aq%3areact+spas%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
 [gascan]: https://github.com/kpmcguire/gascanjs

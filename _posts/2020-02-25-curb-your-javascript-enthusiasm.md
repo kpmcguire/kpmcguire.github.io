@@ -35,5 +35,5 @@ My goal for this game is to make a very lightweight platforming/adventure style 
 
 
 [curb-github]: https://github.com/kpmcguire/curb-game
-[curb-live]: https://curb-your-javascript.netlify.com/
+[curb-live]: https://curb-your-javascript.netlify.app/
 

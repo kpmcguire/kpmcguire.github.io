@@ -43,7 +43,7 @@ This is a JS gas mileage tracking app. I made it with VueJS. It exists because t
 [Live demo of Gascan JS][gascanjsnetlify]
 
 [gascanjsgithub]:https://github.com/kpmcguire/gascanjs
-[gascanjsnetlify]:https://gascan.netlify.com
+[gascanjsnetlify]:https://gascan.netlify.app/
 
 
 ## [Welcome to.. Your Perfect Score Sheet][welcometogithub]
@@ -62,7 +62,7 @@ A simple game. Pits two monsters against one another, and lets you wager on whic
 
 [Live demo of the Battler][pokemonlive]
 
-[pokemonlive]:https://kind-wing-66bf53.netlify.com/
+[pokemonlive]:https://pokemon-battler.netlify.app/
 
 [pokemongithub]:https://github.com/kpmcguire/pokemon-battler
 
@@ -73,7 +73,7 @@ A place to store bookmarks. Remember Delicious? Magnolia? Like that, but I wrote
 [Live demo of Bookmarks-a-lot][bml-live]
 
 [bml-github]: https://github.com/kpmcguire/bookmarks-a-lot
-[bml-live]: https://bookmarks-a-lot.netlify.com/
+[bml-live]: https://bookmarks-a-lot.netlify.app/
 
 ## [kpmweather][kpmweather-github]
 

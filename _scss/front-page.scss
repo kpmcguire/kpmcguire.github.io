@@ -160,7 +160,7 @@ body {
 }
 
 .page-content, .post-content {
-	p, li, dl, h2, h3{
+	p, li, dl, h2, h3, h4{
 		color: $gray;
 	}
 }
@@ -279,6 +279,22 @@ footer {
 
 	.menu-icon > svg {
 		fill: #fff;
+	}
+}
+
+.columns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	.max-height {
+		flex: 1;
+		padding: 1em;
+
+		img {
+			max-height: 300px;
+		}
 	}
 }
 

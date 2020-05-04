@@ -91,9 +91,11 @@ One of the things I really wanted to get right was the fonts. At first glance, t
 
 After some internet sleuthing, I discovered that it is [Seurat](https://fontworks.co.jp/fontsearch/seuratpro-db/?word=Hamburgefonstiv), from Fontworks. The dialog font is another one from Fontworks, this time it's [Rodin Extra Bold](https://fontworks.co.jp/fontsearch/rodinpro-eb/?word=Hamburgefonstiv).
 
-![Seurat Vs. Arial Rounded Vs. Avenir](/assets/images/blog/acfontcomparison.jpg)
+![Seurat Vs. Arial Rounded Vs. Avenir](/assets/images/blog/acfontcomparison.png)
 
-The stroke width is almost completely the same, there's very little variation. The horizontal stroke is thinner than the vertical, but not as much as Arial Rounded or Avenir. Again, this is not bad, I actually really really like this font, and I think this is to be expected from a font where Roman characters aren't the main deal.
+The stroke width is almost completely the same, there's very little contrast in stroke width. The horizontal stroke is thinner than the vertical, but not as much as Arial Rounded or Avenir. The x-height is much higher.
+
+Again, this is not bad, I actually really really like this font, and I think this is to be expected from a font where Roman characters aren't the main deal.
 
 #### The rounded corners
 
@@ -101,7 +103,7 @@ Ever since iOS 7, I've begun to notice whenever a [Rounded Corner](https://www.f
 
 This was quite difficult. at first I tried using [SVG clip paths](https://codepen.io/kpmcguire/details/bGdZqdK), which mostly worked, but when the content of the box was larger than intended, you get distortion.
 
-Then I found [this article](https://w3.eleqtriq.com/2014/02/the-4-slice-scaling-technique-for-svg/), which looked promising. However, I was having trouble getting it to work as a clipping path. I really wanted it to be implemented as a clipping path so you could have whatever kind of background you want, instead of just having an SVG.
+Then I found [this article](https://w3.eleqtriq.com/2014/02/the-4-slice-scaling-technique-for-svg/), which looked promising. However, I was having trouble getting it to work as a clipping path. I really wanted it to be implemented as a clipping path so you could have whatever kind of background you want, instead of just having an SVG.
 
 I tried quite a few different things. At one point, I had three different SVG masks - one fat, one "average", and one skinny, that I would apply to the `div`s dynamically with JS by testing the aspect ratio of the content. (Apparently [container queries still aren't a thing](https://css-tricks.com/lets-not-forget-about-container-queries/)).
 

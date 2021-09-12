@@ -18,6 +18,9 @@ $fgcolor: #d5df37;
   @media (min-width: 1280px) {@content;}
 }
 
+.footer-description::first-letter {
+	margin-left: -0.35rem;
+}
 
 .work-listing {
 	list-style-type: none;

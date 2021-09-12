@@ -16,7 +16,7 @@
 title: Kevin M<span>c</span>Guire
 email: kpmcguire@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    A web designer and developer.
+    “Ooh, they have the internet on computers now.” – Homer Simpson
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kpmcguire.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

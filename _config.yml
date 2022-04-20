@@ -42,5 +42,5 @@ sass:
     style: compressed
 
 commonmark:
-  options: ["SMART", "FOOTNOTES"]
+  options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]    

@@ -92,3 +92,12 @@ I created an Animal Crossing New Horizons style caption maker.
 
 [beastforest-netlify]: https://beastforest.netlify.app 
 [beastforest-github]: https://github.com/kpmcguire/beastforest
+
+## [Knacker Hues][kh-github]
+
+An alternative front-end to Hacker News. 
+
+[Live demo of Knacker Hues][kh-netlify]
+
+[kh-netlify]: https://knacker-hues.netlify.app 
+[kh-github]: https://github.com/kpmcguire/knacker-hues

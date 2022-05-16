@@ -9,17 +9,11 @@ I wrote an app to keep track of bookmarks. It's called [Bookmarks-a-lot][bml-git
 
 [Try out the live version of Bookmarks-a-lot][bml-live].
 
-I wrote this to try out working with React. I had been looking to strengthen my skills and I thought that building something like this would be simple and fun. Boy was I wrong.
+I wrote this to try out working with React. I had been looking to strengthen my skills and I thought that building something like this would be simple and fun. It was fun, I guess, but not so simple.
 
-Just kidding. Sort of. Firstoff, React is.. ok. I know I'm backwards, but I learned about Vue first. So React, to me, seems weird. That makes since, since it came first and (probably?) pioneered a lot of the techniques that things like Angular and Vue have taken and elaborated on. But, fundamentally it's similar.
+1. React can sometimes be a bit strange, to me. Functional programming is not something I have much experience with, and I find it strange that something so popular can be so... esoteric.
 
-This was also the first fully JS app I had tried to make that used something like Firebase. I encountered this in some courses I went through from [Ray Villalobos][raybo] on [lynda.com][lynda-react-spas].
-
-It's not really complicated - it's just a little more complicated than the lesson covered. Which is fine! I learned a few things. 
-
-1. React (with routers) doesn't work how I expected. You really have to be careful about what information you pass to the view, and when. For example, if you pass the user to the detail page, you then make it so the user has to go through the first page to get the user id, unless you re-establish it again on the detail page. I think this is why a lot of pages struggle with having permanent links to things. It's non-trivial to set up. 
-
-1. Firebase is weird. Given my experience working with relational databases, like mysql and postgres. I don't think it was too different, in the end, but at first it was difficult getting used to working with these nosql style datastores. But I think I got the hang of it.
+1. Firebase is weird. I've mostly worked with things like mysql and postgres. I don't think it was too different, in the end, but at first it was difficult getting used to working with these type of datastores. But I think I got the hang of it.
 
 ### Running on Fumes
 
@@ -35,7 +29,7 @@ Apparently they still exist as a wholly owned subsidiary of the Avery corporatio
 
 So I patterned my branding after the old markers I remember. 
 
-When I was kid, we had Sharpies, and Marks-a-lots. Sharpies were for fine print, and Marks-a-lot were for, oh, say, filling in fields of color on a poster. They *smelled*. Good? Bad? That's up to you.
+When I was kid, we had Sharpies, and Marks-a-lots. Sharpies were for fine print, and Marks-a-lot were for, oh, say, filling in giant fields of color on a poster. They *smelled*. Good? Bad? That's up to you.
 
 ### The Future, Kevin?
 

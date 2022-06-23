@@ -101,3 +101,9 @@ An alternative front-end to Hacker News.
 
 [kh-netlify]: https://knacker-hues.netlify.app 
 [kh-github]: https://github.com/kpmcguire/knacker-hues
+
+## [Animal Clobbering](https://github.com/kpmcguire/animal-clobbering)
+
+A simple JRPG-esque "fighting game" using Animal Crossing characters. 
+
+[Live version of Animal Clobbering](https://animal-clobbering.netlify.app)

@@ -1,6 +1,8 @@
 $gray: #6b6b6b;
 $bgcolor: #1f3a5b;
 $fgcolor: #d5df37;
+$link_color: #0043B8;
+$featured_color: #bbeeff;
 
 @mixin for-small {
   @media (max-width: 640px) {@content;}
@@ -18,8 +20,20 @@ $fgcolor: #d5df37;
   @media (min-width: 1280px) {@content;}
 }
 
+.footer-description {
+	margin-left: 1.35rem;
+}
+
 .footer-description::first-letter {
 	margin-left: -0.35rem;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: $link_color;
 }
 
 .work-listing {
@@ -54,7 +68,8 @@ $fgcolor: #d5df37;
 
 .site-header {
 	background: $bgcolor;
-	border-top-color: lighten($fgcolor, 20);
+	border-top-color: lighten($fgcolor, 0);
+	padding-top: 0.25rem;
 
 	.page-link {
 		color: $fgcolor;
@@ -73,7 +88,7 @@ $fgcolor: #d5df37;
 .site-title {
 	color: $fgcolor;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 900;
 	letter-spacing: 2px;
 
 	@include for-small {
@@ -86,7 +101,7 @@ $fgcolor: #d5df37;
 
 	.castle::before {
 		opacity: 0.5;
-		top: -0.1em;
+		top: 0.05rem;
 	}
 	
 	span {
@@ -104,11 +119,30 @@ $fgcolor: #d5df37;
 
 .post-title  {
 	font-size: 1.8em;
-	color: $gray;
+}
+
+.post-list {
+	h1, h2, h3, h4, h5, h6 {
+			margin-top: 0;
+			margin-bottom: 0.5rem;
+	}
+	
+	.post-link {
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 body {
-	background: lighten($gray, 50);
+	background: lighten($featured_color, 5);
+	color: $bgcolor;
+}
+
+.post-meta {
+	color: lighten($bgcolor, 20);
 }
 
 .page-content {
@@ -118,7 +152,7 @@ body {
 	p {
 		font-size: 1.2em;
 		line-height: 1.6;
-		color: $gray;
+		color: $bgcolor;
 	}
 
 	@media screen and (max-width: 800px) {
@@ -149,11 +183,14 @@ body {
 
 	}
 
-
-
-	p a {
-		text-decoration: underline;
+	p, li {
+		a {
+			text-decoration: underline;
+			text-decoration-color: lighten($link_color, 30);
+		}
 	}
+
+	
 
 	h2 a {
 		text-decoration: none;
@@ -164,7 +201,7 @@ body {
 
 .page-content, .post-content {
 	p, li, dl, h2, h3, h4{
-		color: $gray;
+		color: $bgcolor;
 	}
 }
 
@@ -273,6 +310,27 @@ footer {
 	}
 }
 
+.site-footer {
+	border-bottom: 5px solid $fgcolor;
+	background: lighten($bgcolor, 5);
+	color: $featured_color;
+	
+	.footer-col-wrapper, .footer-heading {
+		color: lighten($fgcolor, 5);
+	}
+	
+	a {
+		color: lighten($fgcolor, 25);
+	}
+	
+	.svg-icon {
+		fill: $fgcolor;
+		width: 21px;
+		height: 21px;
+	}
+	
+}
+
 .site-nav {
 	background-color: $bgcolor;
 
@@ -297,6 +355,66 @@ footer {
 
 		img {
 			max-height: 300px;
+		}
+	}
+}
+
+.projects-wrapper {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+	@include for-small {
+		padding: 0;
+	}
+	
+	.project-info {
+		flex: 3;
+	}
+
+	.project-image {
+		flex: 2;
+		margin-right: 1rem;
+		border: 1px solid darken($featured_color, 40);
+
+		@include for-small {
+			margin-right: 0;
+			margin-bottom: 1rem;
+		}
+
+	}
+
+	.project-image img {
+		width: 100%;	
+	}
+
+	.project {
+		border-radius: 0.5rem;
+		background-color: white;
+		margin: 1rem;
+		padding: 1rem;
+		display: flex;
+		align-items: flex-start;
+		border: 2px solid darken($featured_color, 10);
+		
+		@include for-small {
+			margin: 1rem 0;
+		}
+		
+		@include for-small {
+			display: block;
+		}
+		
+		.project-info {
+
+		}
+		
+		h2 {
+			margin-top: 0;
+		}
+		
+		:last-child {
+			margin-bottom: 0;
 		}
 	}
 }

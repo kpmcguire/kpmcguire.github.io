@@ -22,6 +22,10 @@ $featured_color: #bbeeff;
 
 .footer-description {
 	margin-left: 1.35rem;
+	
+	@include for-small {
+		margin-left: 0.35rem;	
+	}
 }
 
 .footer-description::first-letter {
@@ -89,6 +93,7 @@ a {
 	color: $fgcolor;
 	text-transform: uppercase;
 	font-weight: 900;
+	font-variation-settings: 'wght' 900;
 	letter-spacing: 2px;
 
 	@include for-small {

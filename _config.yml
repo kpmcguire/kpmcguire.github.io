@@ -22,6 +22,10 @@ url: "https://kpmcguire.github.io" # the base hostname & protocol for your site,
 
 github_username:  kpmcguire
 
+mastodon:
+  - username: kpmcguire
+    instance: mastodon.social
+
 # Build settings
 markdown: CommonMarkGhPages
 theme: minima
